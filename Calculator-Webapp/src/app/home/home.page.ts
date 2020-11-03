@@ -10,10 +10,10 @@ import { Observable, interval } from 'rxjs';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  private recent: string[];
-  private calc: string;
-  private sol: string;
-  private history: string[];
+  public recent: string[];
+  public calc: string;
+  public sol: string;
+  public history: string[];
   private checkChange: any;
   constructor(public bgMode: BackgroundMode) {
     this.recent = [];
