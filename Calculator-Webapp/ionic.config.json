@@ -1,5 +1,7 @@
 {
   "name": "Calculator-Webapp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

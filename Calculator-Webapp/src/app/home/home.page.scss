@@ -25,3 +25,9 @@
 #container a {
   text-decoration: none;
 }
+#calc-body {
+  max-width: 800px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+}
