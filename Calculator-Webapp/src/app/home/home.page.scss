@@ -31,3 +31,21 @@
   transform: translateX(-50%);
   position: relative;
 }
+ion-button {
+  width: 100%;
+  position: relative;
+}
+#expr {
+  width: 75%;
+  position: relative;
+}
+#sol {
+  width: 25%;
+  position: relative;
+}
+ion-input {
+  font-size: 150%;
+}
+ion-icon {
+  font-size: 150%;
+}

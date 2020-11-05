@@ -16,14 +16,15 @@
             <ion-row>
                 <ion-col id="1">
                     <ion-card>
-                        <ion-card-header>Your Calculator</ion-card-header>
+                        <ion-card-header>Calculator</ion-card-header>
                         <ion-card-content>
                             <ion-grid>
                                 <ion-row>
-                                    <ion-col class="expr">
+                                    <ion-col id="expr" size="10">
                                         <ion-input placeholder="Start a Calculation" readonly="true" [(ngModel)]="calc"></ion-input>
                                     </ion-col>
-                                    <ion-col class="sol">
+                                    <ion-col id="sol" size="4">
+                                        <ion-icon name="return-down-forward" size="medium"></ion-icon>
                                         <ion-input placeholder="0" readonly="true" [(ngModel)]="sol"></ion-input>
                                     </ion-col>
                                 </ion-row>
