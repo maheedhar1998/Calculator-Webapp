@@ -10,3 +10,11 @@
 ## Running
 
 - `ionic serve`
+
+## Building
+
+- `ionic build --prod`
+
+## Deploying
+
+- `firebase deploy`
